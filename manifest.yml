@@ -1,0 +1,9 @@
+---
+ applications:
+ - name: ToDoPlannerCF
+   memory: 1gb
+   instances: 1
+   path: ./target/ToDoPlannerCF-0.0.1-SNAPSHOT.jar
+   services:
+    - postgress
+    - rabbitmq
